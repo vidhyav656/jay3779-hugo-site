@@ -5,12 +5,9 @@ title: About
 
 <div style="float:right; margin:10px 0 10px 30px;">
   <figure>
-    <img src="/assets
-
-![](/images/uploads/jasonmraz80x80.jpg)
-
-/josh.jpg" style="width: 300px;" />
+    <img src="images/uploads/jasonmraz80x80.jpg" style="width: 300px;" />
     <figcaption>Photo by <a href="http://fuadkamal.org">Fuad Kamal</a>. Used with permission.</figcaption>
+
   </figure>
 </div>
 
