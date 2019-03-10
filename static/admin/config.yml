@@ -20,7 +20,7 @@ collections:
       - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "post" # Used in routes, e.g., /admin/collections/blog
+  - name: "post" # Used in routes, e.g., /admin/collections/post
     label: "Post" # Used in the UI
     folder: "content/posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -32,7 +32,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Categories", name: "categories", widget: "list"}
 
-  - name: "microposts" # Used in routes, e.g., /admin/collections/blog
+  - name: "microposts" # Used in routes, e.g., /admin/collections/microposts
     label: "Microposts" # Used in the UI
     folder: "content/microposts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -40,4 +40,4 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "microposts/single.html"}      
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "title", widget: "markdown"}
