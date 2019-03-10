@@ -1,5 +1,4 @@
 ---
-layout: photos/single.html
 title: gdgf
 date: 2019-03-10T18:48:22.437Z
 location: dfgfd
