@@ -127,16 +127,16 @@ collections:
             widget: object
             fields:
               -
-                label: Handle
-                name: Handle Name
+                label: Handle Name
+                name: HandleName
                 widget: string
               -
-                label: FirstName
-                name: First Name
+                label: First Name
+                name: FirstName
                 widget: string
               -
-                label: LastName
-                name: Last Name
+                label: Last Name
+                name: LastName
                 widget: string
               -
                 label: AboutPage
@@ -150,3 +150,25 @@ collections:
                 label: FlickrID
                 name: FlickrID
                 widget: string
+          -        
+            label: 'Other Setting'
+            name: author
+            widget: object
+            fields:
+              -
+                label: Description
+                name: Description
+                widget: string
+              -
+                label: Display Copyright
+                name: ShowCopyright
+                widget: boolean
+                default: true
+              -
+                label: RSSSections
+                name: RSSEnabled
+                widget: hidden
+              -
+                label: RSSSections
+                name: RSSSections
+                widget: hidden
