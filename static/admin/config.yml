@@ -98,6 +98,10 @@ collections:
                 name: baseurl
                 widget: hidden
               -
-                label: languageCode
-                name: languageCode
+                label: title
+                name: title
+                widget: string
+              -
+                label: theme
+                name: theme
                 widget: hidden
