@@ -72,7 +72,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-    create: true # Allow users to create new documents in this collection
+    create: false # Allow users to create new documents in this collection
     editor:
       preview: true
 
@@ -122,12 +122,10 @@ collections:
                 name: SectionPagesMenu
                 widget: hidden
       -
-        name: pages
-        label: Pages
+        name: authors
+        label: Authors
         file: config.toml
-        delete: false
-        editor:
-          preview: false
+        description: 'Author descriptions'
         fields:
           -
             label: 'Author Details'
