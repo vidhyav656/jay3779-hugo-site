@@ -6,4 +6,4 @@ location: 'Chicago, Il'
 camera: Canon 60D
 thumbnail: /images/uploads/ripple.jpg
 ---
-
+content here
