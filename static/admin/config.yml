@@ -64,10 +64,10 @@ collections:
     label: "Footer" # Used in the UI
     files:
       - {label: "Footer", name: "footer", file: "layouts/partials/bio.html"}
-      fields:
-          - {label: "Layout", name: "layout", widget: "hidden"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
     create: true # Allow users to create new documents in this collection
     editor:
       preview: true
