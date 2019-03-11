@@ -47,13 +47,13 @@ collections:
     editor:
       preview: true
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/photoss/single.html"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Location", name: "location", widget: "string"}
       - {label: "Camera", name: "camera", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"} 
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "pages" # Used in routes, e.g., /admin/collections/post
     label: "Pages" # Used in the UI
