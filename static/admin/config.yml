@@ -32,12 +32,12 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "Title", widget: "markdown"}
       - label: "Featured Image"
-          name: "thumbnail"
-          widget: "image"
-          default: "static/images/uploads"
-          media_library:
-            config:
-              multiple: false
+        name: "thumbnail"
+        widget: "image"
+        default: "static/images/uploads"
+        media_library:
+          config:
+            multiple: false
 
   - name: "photos" # Used in routes, e.g., /admin/collections/post
     label: "Photos" # Used in the UI
