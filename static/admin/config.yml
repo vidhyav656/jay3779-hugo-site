@@ -62,10 +62,8 @@ collections:
 
   - name: "pages" # Used in routes, e.g., /admin/collections/post
     label: "Footer" # Used in the UI
-    files: 
-    - file: "layouts/partials/bio.html" # The path to the folder where the documents are stored
-      label: "Footer"
-      name: "footer"
+    files:
+      - {label: "Footer", name: "footer", file: "layouts/partials/bio.html"}
       fields:
           - {label: "Layout", name: "layout", widget: "hidden"}
           - {label: "Title", name: "title", widget: "string"}
