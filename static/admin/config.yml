@@ -121,13 +121,7 @@ collections:
                 label: SectionPagesMenu
                 name: SectionPagesMenu
                 widget: hidden
-      -
-        name: authors
-        label: Authors
-        file: config.toml
-        description: 'Author descriptions'
-        fields:
-          -
+          -        
             label: 'Author Details'
             name: author
             widget: object
