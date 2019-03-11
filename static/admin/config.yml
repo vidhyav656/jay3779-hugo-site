@@ -98,6 +98,12 @@ collections:
                 label: baseurl
                 name: baseurl
                 widget: hidden
+                default: "/"
+              -
+                label: languageCode
+                name: languageCode
+                widget: hidden
+                default: en-us
               -
                 label: title
                 name: Title
@@ -106,10 +112,12 @@ collections:
                 label: theme
                 name: theme
                 widget: hidden
+                default: internet-weblog
               -
                 label: pygmentsstyle
                 name: pygmentsstyle
                 widget: hidden
+                default: emacs
               -
                 label: Paginate
                 name: Paginate
@@ -122,6 +130,7 @@ collections:
                 label: SectionPagesMenu
                 name: SectionPagesMenu
                 widget: hidden
+                default: main
           -        
             label: 'Author Details'
             name: author
@@ -129,7 +138,7 @@ collections:
             fields:
               -
                 label: Handle Name
-                name: HandleName
+                name: Handle
                 widget: string
               -
                 label: First Name
@@ -169,7 +178,9 @@ collections:
                 label: RSSSections
                 name: RSSEnabled
                 widget: hidden
+                default: true
               -
                 label: RSSSections
                 name: RSSSections
                 widget: hidden
+                default: [ "Posts", "Microposts", "Photos" ]
