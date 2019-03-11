@@ -73,17 +73,3 @@ collections:
     create: true # Allow users to create new documents in this collection
     editor:
       preview: true
-
-  - name: "pages" # Used in routes, e.g., /admin/collections/post
-    label: "Header" # Used in the UI
-    files: 
-    - file: "config.toml" # The path to the folder where the documents are stored
-      label: "Header"
-      name: "header"
-      fields:
-          - {label: "Layout", name: "layout", widget: "hidden"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-    create: true # Allow users to create new documents in this collection
-    editor:
-      preview: true
