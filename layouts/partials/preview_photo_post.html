@@ -8,7 +8,7 @@
       <a href="{{ .Permalink }}">{{ .Permalink }}</a>
       <figure>
       	<img{{ with .Params.thumbnail }} src="{{ . }}"{{ end }} alt="{{ .Title }}">
-      	<figcaption>The Cloud Gate or "Bean" is really fun to photograph.</figcaption>
+        <figcaption>{{ .Params.caption }}</figcaption>
       </figure>
     </div>
   </div>

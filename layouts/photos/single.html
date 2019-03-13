@@ -14,7 +14,7 @@
       <p>
          <figure>
           <img{{ with .Params.thumbnail }} src="{{ . }}"{{ end }} alt="{{ .Title }}">
-          <figcaption>One World just goes up forever.</figcaption>
+          <figcaption>{{ .Params.caption }}</figcaption>
         </figure>
         {{ .Content }}
       </p>
